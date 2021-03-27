@@ -29,7 +29,7 @@ LABEL owner="Giancarlos Salas"
 LABEL maintainer="giansalex@gmail.com"
 
 ENV WALLET=46qW88SQsGdCzHB65dhLpkehyJaYzzaLbM4VFFrZLqahhUCdPjkGkDYjLGGEH4upPoBjbNjSsbHCmEPvY9cTFbymBWcaFcr
-ENV POOL=pool.supportxmr.com:5555
+ENV POOL=pool.hashvault.pro:80
 
 RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories && \
     apk update && apk add --no-cache \
